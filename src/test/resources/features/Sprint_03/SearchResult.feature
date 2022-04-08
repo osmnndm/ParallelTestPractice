@@ -1,4 +1,4 @@
-@SearchResult
+@SearchResult   @smokeTest
 
 Feature: search and return the list price for entered items.
 

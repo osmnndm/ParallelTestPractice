@@ -1,4 +1,4 @@
-@datatable01 @third @second
+@datatable01 @third @second  @smokeTest
 Feature: scenario outline example
   Scenario: testing the data tables web page
     Given User is on the datatables homepage

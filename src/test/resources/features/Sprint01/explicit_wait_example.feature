@@ -1,4 +1,4 @@
-@wait
+@wait  @smokeTest
 Feature: Explicit wait
   Scenario: Explicit wait example
     Given user is on the demo page

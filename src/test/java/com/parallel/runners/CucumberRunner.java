@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         },
         glue = "com/parallel/step_definitions",
         dryRun = false,
-        tags = "",
+        tags = "RegressionTest",
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json",
                 "rerun:target/rerun.txt"

@@ -7,12 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/Activities",
-                     "src/test/resources/features/fleet"
-        },
+        features = {"src/test/resources/features/"},
         glue = "com/parallel/step_definitions",
         dryRun = false,
-        tags = "RegressionTest",
+        tags = "@smokeTest",
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json",
                 "rerun:target/rerun.txt"
